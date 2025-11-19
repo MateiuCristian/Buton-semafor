@@ -3,7 +3,6 @@ i = 0;
 
 function changeButtonColor(id) {
     document.getElementById(id).style.backgroundColor = colors[(i + 1) % 3];
-    console.log(colors[i]);
     ++i;
 }
 
